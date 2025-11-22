@@ -104,7 +104,7 @@ h1 {
 }
 
 .socialmedia {
-    color: #000000;
+    color: var(--secondary-color);
 }
 
 /* white text to make sure there is enough contrast */
