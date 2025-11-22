@@ -93,7 +93,7 @@ article {
     float: right;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 40px;
     width: 100%;
