@@ -47,6 +47,10 @@ article {
     text-align: center;
 }
 
+nav {
+    color: var(--accent1-color);
+}
+
 /* the descendent selector (.socialmedia a) only applies to anchor tags (a) that are children of the elements within socialmedia */
 .socialmedia a {
     text-decoration: none;
@@ -100,7 +104,7 @@ article {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--accent1-color);
+    background-color: var(--primary-color);
     color: #fff;
 }
 
