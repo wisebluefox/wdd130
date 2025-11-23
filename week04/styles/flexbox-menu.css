@@ -4,7 +4,7 @@ body {
 }
 
 nav {
-    background-color: #36454f;
+    background-color: #25a8ff;
 }
 
 nav ul {
@@ -29,12 +29,12 @@ p {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 10%);
     padding: 1rem;
-    background-color: #bed;
+    background-color: rgb(13, 232, 159);
     max-width: 400px;
 }
 
 #devtools-btn {
-    background-color: #36454f;
+    background-color: #034c7d;
     color: white;
     border: none;
     padding: 12px 24px;
@@ -47,9 +47,9 @@ p {
 }
 
 #devtools-btn:hover {
-    background-color: #4a5a6a;
+    background-color: #007af4;
 }
 
 #devtools-btn:active {
-    background-color: #2a3a4a;
+    background-color: #166fc9;
 }

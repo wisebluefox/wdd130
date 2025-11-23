@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #1b87b1;
-    --secondary-color: #f4a261;
-    --accent1-color: #244451;
-    --accent2-color: #e9c46a;
+    --primary-color: #0cb4f7;
+    --secondary-color: #fffdfb;
+    --accent1-color: #ffffff;
+    --accent2-color: #ffffff;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -89,7 +89,7 @@ article {
     width: 160px;
     height: auto;
     border: 4px solid white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 10px rgba(183, 52, 52, 0);
     float: right;
 }
 
