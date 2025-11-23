@@ -2,7 +2,7 @@
     --primary-color: #041934;
     --secondary-color: #08672b;
     --accent1-color: #ffffff;
-    --accent2-color: #ec8181;
+    --accent2-color: #ffffff;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -35,7 +35,7 @@ h1,
 h2,
 h3 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--accent1-color);
 }
 
 nav,
