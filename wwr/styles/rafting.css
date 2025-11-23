@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #0cb4f7;
+    --primary-color: #9be298;
     --secondary-color: #fffdfb;
     --accent1-color: #ffffff;
     --accent2-color: #ffffff;
@@ -74,7 +74,7 @@ article {
     display: flex;
     gap: 20px;
     border: 2px solid rgba(0, 0, 0, 0);
-    background-color: rgba(45, 88, 105, 0.85);
+    background-color: rgba(188, 233, 250, 0.85);
 }
 
 .hero article p {
