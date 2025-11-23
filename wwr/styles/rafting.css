@@ -34,7 +34,7 @@ h1,
 h2,
 h3 {
     font-family: var(--heading-font);
-    color: var(--accent1-color);
+    color: #000000;
 }
 
 h2 {
