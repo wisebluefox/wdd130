@@ -112,4 +112,8 @@ nav {
     color: var(--secondary-color);
 }
 
+.navigation {
+    color: var(--accent1-color);
+}
+
 /* white text to make sure there is enough contrast */
