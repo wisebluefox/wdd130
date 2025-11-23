@@ -90,12 +90,12 @@ nav {
     display: flex;
     gap: 20px;
     border: 2px solid rgba(0, 0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(146, 195, 236, 0.85);
 }
 
 .hero article p {
     width: 70%;
-    color: #ffffff;
+    color: #280505;
     font-size: 1rem;
     line-height: 1.5;
     margin: 0;
