@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #9be298;
-    --secondary-color: #fffdfb;
+    --primary-color: #041934;
+    --secondary-color: #08672b;
     --accent1-color: #ffffff;
-    --accent2-color: #ffffff;
+    --accent2-color: #ec8181;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -74,7 +74,7 @@ article {
     display: flex;
     gap: 20px;
     border: 2px solid rgba(0, 0, 0, 0);
-    background-color: rgba(188, 233, 250, 0.85);
+    background-color: rgba(0, 0, 0, 0.85);
 }
 
 .hero article p {
