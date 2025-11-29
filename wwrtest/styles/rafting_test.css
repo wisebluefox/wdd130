@@ -1,6 +1,5 @@
 :root {
     --primary-color: #0b3b8f;
-    --secondary-color: #0e5878;
     --accent1-color: #ffffff;
     --heading-font: "Times New Roman", Georgia, serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -17,29 +16,30 @@ body {
     background-color: #f5f7fa;
 }
 
-
-/* HEADER */
-
-
+/* ---------- HEADER ---------- */
 header {
     background-color: var(--primary-color);
     color: var(--accent1-color);
-    padding: 10px 0;
+    padding: 15px 0;
 }
 
 .header-grid {
     display: grid;
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: 150px 1fr;
     align-items: center;
     max-width: 900px;
     margin: 0 auto;
 }
 
+.logo {
+    width: 130px;
+}
+
 nav ul {
-    list-style: none;
     display: flex;
+    list-style: none;
     justify-content: flex-end;
-    gap: 20px;
+    gap: 25px;
 }
 
 nav a {
@@ -52,40 +52,34 @@ nav a:hover {
     text-decoration: underline;
 }
 
-
-/* HERO + OVERLAY */
-
-
+/* ---------- HERO SECTION ---------- */
 .hero {
-    position: relative;   /* KEY for overlay */
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .hero-image {
     width: 100%;
     height: auto;
-    display: block;
 }
 
 .hero h1 {
     position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(11, 59, 143, 0.75);
-    color: white;
-    padding: 20px 40px;
-    font-size: 2.5rem;
+    top: 20%;
+    width: 100%;
+    padding: 16px;
     text-align: center;
-    border-radius: 8px;
+    opacity: 0.7;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 5.35rem;
 }
-
 
 /* COMPANY INFO – OVERLAY BOX */
 
-
 .company-info {
     position: absolute;
-    top: 70%;                 /* push below title */
+    top: 50%;                 /* push below title */
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
@@ -99,7 +93,7 @@ nav a:hover {
 }
 
 .company-info img {
-    width: 180px;
+    width: 300px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
@@ -108,43 +102,82 @@ nav a:hover {
     margin-bottom: 10px;
     font-family: var(--heading-font);
     color: #000;
+    font-size: 1.35rem;
+    line-height: 1.6;
+    max-width: 500px;
 }
 
 .company-info p {
     line-height: 1.5;
     color: #222;
+    font-size: 1.35rem;
+    line-height: 1.6;
+    max-width: 500px;
 }
 
-/* NORMAL PAGE SECTIONS */
-
-
-section {
+/* ---------- HISTORY SECTION ---------- */
+.history-section {
     max-width: 900px;
-    margin: 120px auto 20px; /* push down so overlay doesn't overlap */
+    margin: 20px auto;
     padding: 20px;
     background: white;
-    border-radius: 8px;
 }
 
-h2 {
+.history-section h2 {
+    text-align: center;
     font-family: var(--heading-font);
-    margin-bottom: 10px;
-    color: #000;
+    margin-bottom: 20px;
 }
 
+.history-grid {
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+    gap: 20px;
+    align-items: center;
+}
 
-/* FOOTER */
+.history-grid img {
+    width: 100%;
+}
 
+/* ---------- ADVENTURE SECTION ---------- */
+.adventure-section {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+}
 
+.adventure-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: var(--heading-font);
+}
+
+.adventure-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+    text-align: center;
+}
+
+.adventure-grid img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    background: #ddd;
+}
+
+/* ---------- FOOTER ---------- */
 footer {
-    background-color: var(--primary-color);
-    color: var(--accent1-color);
-    padding: 20px 0;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 15px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 900px;
-    margin: 40px auto 0;
+    background: var(--primary-color);
+    color: white;
 }
 
 .socialmedia {
