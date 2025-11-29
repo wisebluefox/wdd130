@@ -81,7 +81,7 @@ nav a:hover {
 /* COMPANY INFO OVERLAY BOX SECTION*/
 
 .hero article {
-    position: relative;                
+    position: absolute;                
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
