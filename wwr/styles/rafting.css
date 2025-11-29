@@ -61,8 +61,8 @@ nav a:hover {
     position: relative
 }
 
-.hero image {
-    width: 200px;
+.hero img {
+    width: 100%;
     height: auto;
 }
 
@@ -83,6 +83,7 @@ nav a:hover {
 .hero article {
     position: absolute;                
     left: 50%;
+    top: 70%;
     transform: translate(-50%, -50%);
     display: flex;
     gap: 20px;
@@ -106,7 +107,6 @@ nav a:hover {
     font-family: var(--heading-font);
     color: #000;
     font-size: 1.35rem;
-    line-height: 1.6;
     max-width: 500px;
 }
 
@@ -114,7 +114,6 @@ nav a:hover {
     line-height: 1.5;
     color: #222;
     font-size: 1.35rem;
-    line-height: 1.6;
     max-width: 500px;
 }
 
