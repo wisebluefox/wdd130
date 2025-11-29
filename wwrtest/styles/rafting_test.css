@@ -1,0 +1,153 @@
+:root {
+    --primary-color: #0b3b8f;
+    --secondary-color: #0e5878;
+    --accent1-color: #ffffff;
+    --heading-font: "Times New Roman", Georgia, serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    background-color: #f5f7fa;
+}
+
+
+/* HEADER */
+
+
+header {
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+    padding: 10px 0;
+}
+
+.header-grid {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+nav a {
+    color: var(--accent1-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* HERO + OVERLAY */
+
+
+.hero {
+    position: relative;   /* KEY for overlay */
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(11, 59, 143, 0.75);
+    color: white;
+    padding: 20px 40px;
+    font-size: 2.5rem;
+    text-align: center;
+    border-radius: 8px;
+}
+
+
+/* COMPANY INFO – OVERLAY BOX */
+
+
+.company-info {
+    position: absolute;
+    top: 70%;                 /* push below title */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background: rgba(255,255,255,0.95);
+    max-width: 900px;
+    width: 90%;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+}
+
+.company-info img {
+    width: 180px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.company-info h3 {
+    margin-bottom: 10px;
+    font-family: var(--heading-font);
+    color: #000;
+}
+
+.company-info p {
+    line-height: 1.5;
+    color: #222;
+}
+
+/* NORMAL PAGE SECTIONS */
+
+
+section {
+    max-width: 900px;
+    margin: 120px auto 20px; /* push down so overlay doesn't overlap */
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+}
+
+h2 {
+    font-family: var(--heading-font);
+    margin-bottom: 10px;
+    color: #000;
+}
+
+
+/* FOOTER */
+
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: 40px auto 0;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 16px;
+}

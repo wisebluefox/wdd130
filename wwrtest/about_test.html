@@ -4,85 +4,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Viking Rafters</title>
 
-    <title>About Us Viking Rafters</title>
-
-    <meta name="description"
-        content="Marisol Moya's White Water Rafting Site for WDD 130 clas that talks all about this enjoyable events">
+    <meta name="description" content="About Viking Rafters - A white water rafting adventure experience.">
     <meta name="author" content="Marisol Moya">
 
-    <link rel="stylesheet" href="styles/rafting.css">
-
+    <link rel="stylesheet" href="styles/rafting_test.css">
 </head>
 
 <body>
 
-    <!--header section which contains stuff at the top of the page like titles, clickable links, and so fort -->
     <header>
-        <img src="images/logo.jpg" alt="White Water Rafting Logo" width="200">
-        <nav>
-            <ul> <!-- the li makes it a list-->
-                <li><a class="navigation" href="index.html">Home</a></li>
-                <li><a class="navigation" href="about.html">About Us</a></li>
-                <li><a class="navigation" href="trips.html">Trips</a></li>
-                <li><a class="navigation" href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
+        <div class="header-grid">
+            <img src="images/logo.jpg" alt="White Water Rafting Logo" width="200">
+
+            <nav>
+                <ul>
+                    <li><a class="navigation" href="index.html">Home</a></li>
+                    <li><a class="navigation" href="about.html">About Us</a></li>
+                    <li><a class="navigation" href="trips.html">Trips</a></li>
+                    <li><a class="navigation" href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-
-    <!--main section which contain stuff at the center of the page -->
     <main>
-        <div class="hero">
-            <img src="images/rafting.jpg" alt="action rafting shot">
 
+        <!-- HERO -->
+        <div class="hero">
+            <img src="images/rafting.jpg" alt="action rafting shot" class="hero-image">
             <h1>The Viking Rafters</h1>
 
-            <article>
+            <!-- COMPANY INFO OVERLAYING THE IMAGE -->
+            <article class="company-info">
                 <img src="images/rafting2.webp" alt="beauty rafting shot">
-                <h3> Our Company</h3>
-                <p> The Viking Rafters is the rafting company for you. We are built upon a history of vikings and we are all former vikings. 
-                    How is this the case? We all have received formal viking training in Iceland and are formally certified to help others on
-                    their own viking journeys. 
-                </p>
+                <div>
+                    <h3>Our Company</h3>
+                    <p>
+                        The Viking Rafters is the rafting company for you. We are built on the proud history
+                        of ancient Viking explorers, trained in Iceland, and certified to guide others through
+                        thrilling outdoor adventures. Join us as we continue the legacy of courage, exploration,
+                        and teamwork.
+                    </p>
+                </div>
             </article>
-        
         </div>
 
-        <section>
+        <!-- HISTORY SECTION -->
+        <section class="history-section">
             <h2>History</h2>
-            <p class="history">
-                We began in 1BC LITERALLY! Our history runs in our blood LITERALLY!!!From the time of our ancient civilization, 
-                the caveman, our ancestors, started the company from scratch out of nothing. We have fought many wars and helped the Lamanites
-                and also the Nephites. We were so dominant that we are secretly the race of ancient Mayans found in Mexico. Thats how amazing
-                we are and our origins. 
+            <p>
+                Our love for adventure began generations ago. Inspired by Viking explorers and strengthened
+                through outdoor leadership training, Viking Rafters grew into a company dedicated to safe
+                and exciting rafting experiences.
             </p>
         </section>
 
-        <section>
+        <!-- ADVENTURE SECTION -->
+        <section class="adventure-section">
             <h2>Adventure Awaits You!</h2>
+            <p>
+                Whether you're seeking mild currents or roaring rapids, your next unforgettable adventure
+                is here! Join us—and discover what it means to raft like a Viking!
+            </p>
+            <img src="images/rafting1.webp" alt="beauty rafting shot">
+            <img src="images/rafting2.jpg" alt="beauty rafting shot">
+            <img src="images/rafting3.webp" alt="beauty rafting shot">
+            <img src="images/rafting4.webp" alt="beauty rafting shot">
+            <img src="images/rafting5.webp" alt="beauty rafting shot">
         </section>
+
     </main>
 
-
-    <!-- footer section which contains stuff at the bottom of the page-->
     <footer>
-        <p>©2025 𓇼 ⋆.˚ 𓆉 𓆝 𓆡⋆.˚ 𓇼Viking Rafters𓇼 ⋆.˚ 𓆉 𓆝 𓆡⋆.˚ 𓇼 Marisol Moya</p>
+        <p>©2025 Viking Rafters • Marisol Moya</p>
+
         <nav class="socialmedia">
             <a href="https://facebook.com">
-                <img src="images/facebook.png" alt="facebook logo" width="55">
+                <img src="images/facebook.png" alt="facebook" width="40">
             </a>
-
-            <a href="htpps://linkedin.com">
-                <img src="images/linkedin.png" alt="linkedin logo" width="60">
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.png" alt="linkedin" width="40">
             </a>
-
             <a href="https://instagram.com">
-                <img src="images/instagram.png" alt="instagram logo" width="60">
+                <img src="images/instagram.png" alt="instagram" width="40">
             </a>
-
         </nav>
-
     </footer>
 
 </body>
