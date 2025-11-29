@@ -180,7 +180,12 @@ footer {
     color: white;
 }
 
+footer p {
+    margin-left: 3%;
+}
+
 .socialmedia {
     display: flex;
     gap: 16px;
+    margin-right: 3%;
 }
