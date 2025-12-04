@@ -18,7 +18,7 @@ body {
     background-color: #f5f7fa;
 }
 
-/*  HEADER  */
+/*  HEADER */
 header {
     background-color: var(--primary-color);
     color: var(--accent1-color);
@@ -54,7 +54,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/*  HERO SECTION  */
+/*  HERO SECTION - Main Page */
 .hero {
     text-align: center;
     margin-bottom: 30px;
@@ -78,7 +78,7 @@ nav a:hover {
     font-size: 5.35rem;
 }
 
-/* COMPANY INFO OVERLAY BOX SECTION*/
+/* COMPANY INFO OVERLAY BOX SECTION - Main Page */
 
 .hero article {
     position: absolute;                
@@ -117,7 +117,7 @@ nav a:hover {
     max-width: 500px;
 }
 
-/*  HISTORY SECTION  */
+/*  HISTORY SECTION  - Main Page */
 .history-section {
     max-width: 900px;
     margin: 20px auto;
@@ -142,7 +142,7 @@ nav a:hover {
     width: 100%;
 }
 
-/*  ADVENTURE SECTION  */
+/*  ADVENTURE SECTION - Main Page */
 .adventure-section {
     max-width: 900px;
     margin: 20px auto;
@@ -164,6 +164,35 @@ nav a:hover {
 }
 
 .adventure-grid img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    background: #ddd;
+}
+
+
+/*  EMPLOYEE SECTION - Contact Us Page  */
+.employee-section {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+}
+
+.employee-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: var(--heading-font);
+}
+
+.employee-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+    text-align: center;
+}
+
+.employee-grid img {
     width: 100%;
     height: 80px;
     object-fit: cover;
