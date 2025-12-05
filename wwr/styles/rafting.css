@@ -170,6 +170,62 @@ nav a:hover {
     background: #ddd;
 }
 
+/*  CONTACT US - Contact Us Page  */
+.contact-info, 
+.contact-form, 
+.employee-section {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+.contact-info h1, 
+.contact-form h2, 
+.employee-section h2 {
+    text-align: center;
+    font-size: var(--heading-font);
+    margin-bottom: 15px;
+    color: var(--primary-color);
+}
+
+.cintact-info p {
+    font-size: 1.1rem;
+    margin: 8px 0;
+}
+
+/*  MAP - Contact Us Page  */
+.map {
+    margin-top: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+}
+
+/*  CONTACT FORM - Contact Us Page  */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+input[type="text"], 
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-family: var(--body-font);
+}
 
 /*  EMPLOYEE SECTION - Contact Us Page  */
 .employee-section {

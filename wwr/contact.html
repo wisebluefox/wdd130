@@ -32,47 +32,55 @@
     </header>
 
 
-    <!-- HERO -->
+    <!-- CONTACT US -->
     <main>
-        <div class="hero">
-            <img src="images/rafting.jpg" alt="action rafting shot">
+        <section class="contact-info">
 
-            <h1>The Viking Rafters</h1>
+            <h1>Contact Us</h1>
+            <p><strong>Address:</strong> 123 Viking Blvd, Reyjavik, Iceland</p>
+            <p><strong>Phone:</strong> +1 (800) 123-4567</p>
+            <p><strong>Email:</strong> support@vikingrafters.com</p>
 
-            <!-- COMPANY INFO THAT OVERLAYS HERO IMG-->
-            <article>
-                <img src="images/rafting2.webp" alt="beauty rafting shot">
-                <div>
-                    <h3> Our Company</h3>
-                    <p> The Viking Rafters is the rafting company for you. We are built upon a history of vikings and we
-                        are all former vikings.
-                        How is this the case? We all have received formal viking training in Iceland and are formally
-                        certified to help others on
-                        their own viking journeys.
-                    </p>
-                </div>
-            </article>
-        </div>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4918.823465691895!2d-19.305983!3d65.434372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48d307201cfbe7e7%3A0x13265383afbceaec!2sViking%20Rafting!5e0!3m2!1sen!2sus!4v1701780000000!5m2!1sen!2sus"
+                    width="100%" height="300" style="border:0;" loading="lazy" allowfullscreen>
+                </iframe>
 
-        <!-- HISTORY SECTION -->
-        <section class="history-section">
-            <h2>History</h2>
 
-            <div class="history-grid">
-                <p class="history">
-                    We began in 1BC LITERALLY! Our history runs in our blood LITERALLY!!!From the time of our ancient
-                    civilization,
-                    the caveman, our ancestors, started the company from scratch out of nothing.
-                </p>
-
-                <img src="images/viking.webp" alt="Viking Photo">
-
-                <p>
-                    We have fought many wars and helped the Lamanites and also the Nephites. We were so dominant that we
-                    are secretly the race of ancient Mayans found in Mexico. Thats how amazing
-                    we are and our origins.
-                </p>
             </div>
+        </section>
+
+        <!-- CONTACT FORM -->
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+
+            <form>
+                <label for="name"> Full Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email"> Email Address</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="purpose"> Message Purpose</label>
+                <select id="purpose" name="purpose" required>
+                    <option>General Inquiry</option>
+                    <option>Booking Inquiry</option>
+                    <option>Group Rates</option>
+                    <option>Feedback</option>
+                </select>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <div class="checkbox">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Subscribe to our newsletter</label>
+                </div>
+
+                <button type="submit">Send Message</button>
+
+            </form>
         </section>
 
         <!-- EMPLOYEE SECTION -->
