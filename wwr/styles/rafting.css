@@ -253,11 +253,7 @@ nav a:hover {
     gap: 8px;
 }
 
-.radio-group input[type="radio"] {
-    margin-right: 8px;
-}
-
-.radio-group label {
+.radio-item {
     display: flex;
     align-items: center; 
     gap: 8px;
