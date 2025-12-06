@@ -200,7 +200,7 @@ nav a:hover {
 
 /*  MAP - Contact Us Page  */
 .map {
-    margin-top: 25px auto;
+    margin: 10px; 
     max-width: 600px;
     border-radius: 4px;
     border: 2px solid var(--border-color);
