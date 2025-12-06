@@ -246,14 +246,21 @@ nav a:hover {
     font-size: 0.95rem;
 }
 
-.radio-group label {
-    display: block;
-    margin-bottom: 5px;
-    cursor: pointer; 
+/*  RADIO BUTTONS ON THE FORM - Contact Us Page  */
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
-.radio-group input {
+.radio-group input[type="radio"] {
     margin-right: 8px;
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center; 
+    gap: 8px;
 }
 
 button[type="submit"] {
@@ -267,6 +274,7 @@ button[type="submit"] {
     font-weight: bold;
     transition: background 0.3s ease;
 }
+
 button[type="submit"]:hover {
     background-color: #072d6b;
 }
