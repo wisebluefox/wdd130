@@ -171,36 +171,31 @@ nav a:hover {
     background: #ddd;
 }
 
-/*  CONTACT GRID - Contact Us Page  */
-.contact-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    align-items: start;
-    margin: 30px 0
-}
-@media (max-width: 800px) {
-    .contact-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
 /*  CONTACT US - Contact Us Page  */
 .main-contact {
     width: 90%;
     max-width: 1100px;
     margin: 0 auto;
+
 }
 
-.contact-info {
+.contact-us {
     text-align: center;
     padding: 20px;
     border-radius: 5px;
 }
 
-.contact-info h1 {
+.contact-us h1 {
     font-size: 2rem;
     margin-bottom: 10px 0;
+}
+
+/*  CONTACT GRID - MAP AND FORM - Contact Us Page  */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    text-align: center;
 }
 
 /*  MAP - Contact Us Page  */
@@ -231,11 +226,12 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    text-align: left;
 }
 
 .contact-form input, 
 .contact-form select, 
-.contact-form texarea {
+.contact-form textarea {
     padding: 10px;
     border: 1px solid var(--border-color);
     border-radius: 5px;
