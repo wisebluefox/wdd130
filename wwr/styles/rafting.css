@@ -246,6 +246,16 @@ nav a:hover {
     font-size: 0.95rem;
 }
 
+.radio-group label {
+    display: block;
+    margin-bottom: 5px;
+    cursor: pointer; 
+}
+
+.radio-group input {
+    margin-right: 8px;
+}
+
 button[type="submit"] {
     background-color: var(--primary-color);
     color: white;
