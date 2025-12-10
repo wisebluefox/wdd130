@@ -330,7 +330,7 @@ button[type="submit"]:hover {
 
 .index h1 {
     position: absolute;
-    top: 30%;
+    top: 20%;
     width: 100%;
     padding: 16px;
     text-align: center;
@@ -351,7 +351,7 @@ button[type="submit"]:hover {
     gap: 20px;
     padding: 20px;
     background: rgba(255,255,255,0.95);
-    max-width: 900px;
+    max-width: auto;
     width: 90%;
     border-radius: 12px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.3);
@@ -369,14 +369,14 @@ button[type="submit"]:hover {
     font-family: var(--heading-font);
     color: #000;
     font-size: 1.35rem;
-    max-width: 500px;
+    max-width: auto;
 }
 
 .index article p {
     line-height: 1.5;
     color: #222;
     font-size: 1.35rem;
-    max-width: 500px;
+    max-width: auto;
 }
 
 /*  PHOTO SECTION - Index Page */
@@ -440,16 +440,7 @@ button[type="submit"]:hover {
     text-align: left;
 }
 
-.contact-form input, 
-.contact-form select, 
-.contact-form textarea {
-    padding: 10px;
-    border: 1px solid var(--border-color);
-    border-radius: 5px;
-    font-size: 1rem;
-}
-
-button[type="suscribe"] {
+.newsletter-form button[type="submit"] {
     background-color: var(--primary-color);
     color: white;
     padding: 12px;
@@ -461,7 +452,7 @@ button[type="suscribe"] {
     transition: background 0.3s ease;
 }
 
-button[type="suscribe"]:hover {
+.newsletter-form button[type="submit"]:hover {
     background-color: #072d6b;
 }
 
