@@ -552,7 +552,6 @@ button[type="submit"]:hover {
 
 /*  FOOTER  */
 footer {
-    max-width: auto;
     margin: 40px auto;
     padding: 15px 0;
     display: flex;
