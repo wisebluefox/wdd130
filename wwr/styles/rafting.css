@@ -381,7 +381,7 @@ button[type="submit"]:hover {
 
 /*  PHOTO SECTION - Index Page */
 
-.photo-section a {
+.trips-button {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -394,7 +394,7 @@ button[type="submit"]:hover {
     padding-bottom: 20px;
 }
 
-.photo-section a:hover {
+.trips-button a:hover {
     text-decoration: underline;
 }
 
@@ -509,7 +509,7 @@ button[type="submit"]:hover {
 
 /*  FOOTER  */
 footer {
-    max-width: 900px;
+    max-width: auto;
     margin: 40px auto;
     padding: 15px 0;
     display: flex;
