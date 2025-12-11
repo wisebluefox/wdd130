@@ -487,6 +487,22 @@ button[type="submit"]:hover {
     font-size: 1.08rem;
 }
 
+/* DESCRIPTION BULLETS  - Trips Page */
+.bullet {
+    position: relative;
+    padding-left: 20px;
+}
+
+.bullet::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: black;
+    font-size: 1.2rem;
+}
+
+
 /* IMAGE  - Trips Page */
 .trip-photo {
     max-width: 250px;
