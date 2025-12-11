@@ -493,7 +493,7 @@ button[type="submit"]:hover {
     padding-left: 20px;
 }
 
-.bullet::before {
+.bullet::before { /* Note to self: use bullet::before to have the bullet before the text */
     content: "•";
     position: absolute;
     left: 0;
